@@ -1,0 +1,18 @@
+{
+    "name": "PinkThumb - It's safe to type your secrets here.",
+    "description": "Type secrets only, when pink.",
+    "version": "0.1",
+    "manifest_version": 2,
+    "background": {
+        "service_worker": "pinkthumb.js"
+      },
+      "permissions": ["declarativeContent"],
+      "page_action": {
+        "default_icon": "/images/pinkthumb.png",
+        "default_title" : "Type secrets only, when pink.",
+        "default_popup": "popup.html",
+        "web_accessible_resources": [
+            "config/urls.json"
+        ]
+        }
+    }

@@ -1,0 +1,11 @@
+{
+	"google": {
+		"url": "accounts.google.com"
+	},
+	"microsoft": {
+		"url": "login.microsoftonline.com"
+	},
+	"outlook.com": {
+		"url": "login.live.com"
+	}
+}
